@@ -1,3 +1,116 @@
+
+/* Add this to the existing CSS file */
+
+/* Media Queries */
+
+/* For screens with a maximum width of 1200px */
+@media only screen and (max-width: 1200px) {
+    /* Adjust layout and styling for larger screens */
+    .container {
+      width: 90%;
+    }
+    .services-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .radial-bars {
+      flex-wrap: wrap;
+    }
+    .radial-bar {
+      width: 40%;
+      margin-bottom: 20px;
+    }
+    .contact {
+      grid-template-columns: 1fr;
+    }
+    .contact-text {
+      text-align: center;
+    }
+    .contact-list {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* For screens with a maximum width of 992px */
+  @media only screen and (max-width: 992px) {
+    /* Adjust layout and styling for medium screens */
+    .container {
+      width: 95%;
+    }
+    .services-list {
+      grid-template-columns: 1fr;
+    }
+    .radial-bars {
+      flex-wrap: wrap;
+    }
+    .radial-bar {
+      width: 60%;
+      margin-bottom: 20px;
+    }
+    .contact {
+      grid-template-columns: 1fr;
+    }
+    .contact-text {
+      text-align: center;
+    }
+    .contact-list {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media only screen and (max-width: 768px) {
+    /* Adjust layout and styling for small screens */
+    .container {
+      width: 98%;
+    }
+    .services-list {
+      grid-template-columns: 1fr;
+    }
+    .radial-bars {
+      flex-wrap: wrap;
+    }
+    .radial-bar {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    .contact {
+      grid-template-columns: 1fr;
+    }
+    .contact-text {
+      text-align: center;
+    }
+    .contact-list {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media only screen and (max-width: 480px) {
+    /* Adjust layout and styling for very small screens */
+    .container {
+      width: 100%;
+    }
+    .services-list {
+      grid-template-columns: 1fr;
+    }
+    .radial-bars {
+      flex-wrap: wrap;
+    }
+    .radial-bar {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    .contact {
+      grid-template-columns: 1fr;
+    }
+    .contact-text {
+      text-align: center;
+    }
+    .contact-list {
+      margin-bottom: 20px;
+    }
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -204,7 +317,8 @@ body {
     padding-bottom: 70px;
 }
 .container{
-    padding: 90px;
+        width: 80%; /* or max-width: 80%; */
+        margin: 0 auto;
 }
 .services-list{
     display: grid;
@@ -717,16 +831,6 @@ section{
     padding: 10px;
     border-radius: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
