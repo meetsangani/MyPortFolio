@@ -1,116 +1,27 @@
-
-/* Add this to the existing CSS file */
-
-/* Media Queries */
-
-/* For screens with a maximum width of 1200px */
-@media only screen and (max-width: 1200px) {
-    /* Adjust layout and styling for larger screens */
-    .container {
-      width: 90%;
+@media only screen and (max-width: 768px) {
+    .header {
+      padding: 10px 5%;
+    }
+    .home-content {
+      font-size: 18px;
     }
     .services-list {
       grid-template-columns: repeat(2, 1fr);
     }
-    .radial-bars {
-      flex-wrap: wrap;
-    }
-    .radial-bar {
-      width: 40%;
-      margin-bottom: 20px;
-    }
-    .contact {
-      grid-template-columns: 1fr;
-    }
-    .contact-text {
-      text-align: center;
-    }
-    .contact-list {
-      margin-bottom: 20px;
-    }
   }
   
-  /* For screens with a maximum width of 992px */
-  @media only screen and (max-width: 992px) {
-    /* Adjust layout and styling for medium screens */
-    .container {
-      width: 95%;
-    }
-    .services-list {
-      grid-template-columns: 1fr;
-    }
-    .radial-bars {
-      flex-wrap: wrap;
-    }
-    .radial-bar {
-      width: 60%;
-      margin-bottom: 20px;
-    }
-    .contact {
-      grid-template-columns: 1fr;
-    }
-    .contact-text {
-      text-align: center;
-    }
-    .contact-list {
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* For screens with a maximum width of 768px */
-  @media only screen and (max-width: 768px) {
-    /* Adjust layout and styling for small screens */
-    .container {
-      width: 98%;
-    }
-    .services-list {
-      grid-template-columns: 1fr;
-    }
-    .radial-bars {
-      flex-wrap: wrap;
-    }
-    .radial-bar {
-      width: 80%;
-      margin-bottom: 20px;
-    }
-    .contact {
-      grid-template-columns: 1fr;
-    }
-    .contact-text {
-      text-align: center;
-    }
-    .contact-list {
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* For screens with a maximum width of 480px */
   @media only screen and (max-width: 480px) {
-    /* Adjust layout and styling for very small screens */
-    .container {
-      width: 100%;
+    .header {
+      padding: 5px 2%;
+    }
+    .home-content {
+      font-size: 16px;
     }
     .services-list {
-      grid-template-columns: 1fr;
-    }
-    .radial-bars {
-      flex-wrap: wrap;
-    }
-    .radial-bar {
-      width: 90%;
-      margin-bottom: 20px;
-    }
-    .contact {
-      grid-template-columns: 1fr;
-    }
-    .contact-text {
-      text-align: center;
-    }
-    .contact-list {
-      margin-bottom: 20px;
+      grid-template-columns: repeat(1, 1fr);
     }
   }
-
+  
 * {
     margin: 0;
     padding: 0;
