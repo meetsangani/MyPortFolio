@@ -85,7 +85,7 @@ body {
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 70px 10% 0;
+    padding: 50px 0;
 }
 
 .home-content {
@@ -184,7 +184,7 @@ body {
 .about-img img{
 
     padding-top: 40px;
-    max-width: 450px;
+    max-width: 370px;
     height: auto;
     width: 100%;
     margin-left: 25%;
